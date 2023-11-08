@@ -1,664 +1,756 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="7.0.6" start="node1" apprev="20004">
+<tour start="node1" appversion="7.0.6" apprev="20004">
   <panorama id="node1">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="136.926" pan="4.73785" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="4.73785" tilt="0" projection="4" fov="136.926"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="" customnodeid="" comment="" heading="0" author="" source="" nodeid="node1" title="이곳!!!" copyright="" info="" tags="휴온메디텍스-로비1 1-20231102-114711" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point03" pan="-274.64" target="" tilt="-22.76" skinid="ht_node" url="{node4}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point04" pan="-251.86" target="" tilt="-2.73" skinid="ht_node" url="{node7}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point06" pan="-215.69" target="" tilt="-1.78" skinid="ht_node" url="{node20}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point08" pan="-87.1" target="" tilt="-4.12" skinid="ht_node" url="{node11}"/>
-      <polyhotspot description="" title="" id="Poly01" target="_blank" url="https://huonsmeditech.com/layout/kor/home.php?go=main">
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node1" tags="휴온메디텍스-로비1 1-20231102-114711" description="" copyright="" title="이곳!!!" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot description="" url="{node7}" pan="-251.86" tilt="-2.73" title="AESTHETIC THERAPY" id="Point04" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node20}" pan="-215.69" tilt="-1.78" title="EXTRACORPOREAL SHOCK WAVE" id="Point06" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node11}" pan="-87.1" tilt="-4.12" title="ENDOSCOPE REPROCESSOR" id="Point08" target="" skinid="ht_node"/>
+      <polyhotspot description="" url="https://huonsmeditech.com/layout/kor/home.php?go=main" title="" id="Poly01" target="_blank">
         <polystring>-10.37/11.85|-10.1/-3.35|-38.53/-3.56|-39.13/10.73</polystring>
       </polyhotspot>
-      <polyhotspot description="" title="" id="poly1" target="-2.0/-3.7/126.6" url="{node3}">
+      <polyhotspot description="" url="{node3}" title="" id="poly1" target="-2.0/-3.7/126.6">
         <polystring>-6.05/-16.77|-37.22/-17.13|-67.43/-23.58|-23.43/-35.79</polystring>
       </polyhotspot>
-      <polyhotspot description="" title="" id="poly2" target="-108.7/-14.7/117.0" url="{node3}">
+      <polyhotspot description="" url="{node3}" title="" id="poly2" target="-108.7/-14.7/117.0">
         <polystring>-73.61/-23.53|-98.8/-23.87|-106.27/-41.37|-59.58/-50.14|-28.52/-39.37</polystring>
       </polyhotspot>
-      <polyhotspot description="" title="" id="Poly02" target="-1.4/-1.8/136.9" url="{node5}">
+      <polyhotspot description="" url="{node5}" title="" id="Poly02" target="-1.4/-1.8/136.9">
         <polystring>-103.66/-24.19|-110.65/-42.96|-137.22/-28.55|-134.35/-16.6|-122.92/-18.78</polystring>
       </polyhotspot>
-      <polyhotspot description="" title="" id="Poly03" target="-112.3/-5.2/136.9" url="{node5}">
+      <polyhotspot description="" url="{node5}" title="" id="Poly03" target="-112.3/-5.2/136.9">
         <polystring>-144.82/-23.25|-118.58/-43.96|-164.13/-59.73|-176.11/-36.21|-179.33/-23.6</polystring>
       </polyhotspot>
-      <polyhotspot description="" title="" id="Poly05" target="-93.7/-7.9/108.2" url="{node6}">
+      <polyhotspot description="" url="{node6}" title="" id="Poly05" target="-93.7/-7.9/108.2">
         <polystring>-231.03/-18.7|-227.81/-41.86|-262.47/-50.29|-269.84/-22.91|-253.31/-18.28</polystring>
       </polyhotspot>
-      <polyhotspot description="" title="" id="Poly06" target="0.0/0.0/136.9" url="{node4}">
+      <polyhotspot description="" url="{node4}" title="" id="Poly06" target="0.0/0.0/136.9">
         <polystring>-271.29/-21.34|-264.99/-49.39|-288.86/-43.11|-286.98/-20.93|-280.04/-18.42</polystring>
       </polyhotspot>
-      <polyhotspot description="" title="" id="Poly07" target="-0.8/0.0/117.4" url="{node2}">
+      <polyhotspot description="" url="{node2}" title="" id="Poly07" target="-0.8/0.0/117.4">
         <polystring>-291.85/-22.24|-294.53/-42.61|-335.41/-44.3|-327.65/-22|-318.74/-14.05</polystring>
       </polyhotspot>
-      <polyhotspot description="" title="" id="Poly08" target="-111.1/-14.0/127.0" url="{node2}">
+      <polyhotspot description="" url="{node2}" title="" id="Poly08" target="-124.6/-10.4/148.6">
         <polystring>-332.28/-23.18|-339.97/-50.34|-24.59/-39.3|-5.1/-18.44</polystring>
       </polyhotspot>
-      <polyhotspot description="" title="" id="Poly04" target="-18.1/-11.5/136.9" url="{node6}">
+      <polyhotspot description="" url="{node6}" title="" id="Poly04" target="-18.1/-11.5/136.9">
         <polystring>-206.39/-23.21|-228.99/-17.05|-225.38/-42.47|-204.72/-50.9</polystring>
       </polyhotspot>
-      <polyhotspot description="" title="" id="Poly09" target="0.0/0.0/136.9" url="{node6}">
+      <polyhotspot description="" url="{node6}" title="" id="Poly09" target="0.0/0.0/136.9">
         <polystring>-180.82/-24.76|-202.54/-23.16|-201.78/-59.14|-168.32/-59.68</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <image height="100" clickmode="0" id="Element01" handcursor="0" stretch="0.518" roty="-19.310" popbackmode="0" hidepinned="0" rotz="1.290" rotx="3.380" fov="31.640" pan="-25.610" width="100" tilt="3.940">
+      <image pan="-25.610" tilt="3.940" clickmode="0" handcursor="0" id="Element01" height="100" popbackmode="0" hidepinned="0" stretch="0.518" roty="-19.310" width="100" rotz="1.290" fov="31.640" rotx="3.380">
         <source url="media/TV.png"/>
       </image>
     </media>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node2">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="126.967" pan="-0.793022" tilt="4.79558e-05" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="-0.793022" tilt="4.79558e-05" projection="4" fov="126.967"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="IVH" customnodeid="" comment="" heading="0" author="" source="" nodeid="node2" title="LOBBY" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point01" pan="-307.95" target="" tilt="-25.6" skinid="ht_node" url="{node4}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point02" pan="-306.03" target="" tilt="-2.28" skinid="ht_node" url="{node7}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point03" pan="-254.26" target="" tilt="-14.96" skinid="ht_node" url="{node6}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point04" pan="-274.99" target="" tilt="-2.75" skinid="ht_node" url="{node20}"/>
-      <hotspot description="" title="이곳!!!" id="Point05" pan="-240.3" target="" tilt="-24.83" skinid="ht_node" url="{node1}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point06" pan="-221.2" target="" tilt="-11.31" skinid="ht_node" url="{node5}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point07" pan="-199.84" target="" tilt="-2.92" skinid="ht_node" url="{node11}"/>
-      <hotspot description="" title="LOBBY" id="Point08" pan="-182.05" target="" tilt="-17.07" skinid="ht_node" url="{node3}"/>
-      <hotspot customimageheight="79" description="" id="제품설명12" target="_blank" customimagewidth="78" title="" fov="8" pan="-359.57" use3D="1" customimage="media/info-22.png" distance3D="557.726" tilt="-12.2" skinid="제품설명12" url=""/>
-    </hotspots>
-    <media>
-      <image height="1204" clickmode="0" id="Element01" handcursor="0" stretch="0.501" roty="56.603" popbackmode="0" hidepinned="0" rotz="9.067" rotx="47.369" fov="13.218" pan="41.029" width="1240" tilt="-11.173">
-        <source url="media/ .png"/>
-      </image>
-    </media>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
-  </panorama>
-  <panorama id="node3">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view fovmode="2" pannorth="0">
-      <start fov="136.926" pan="2.16535" tilt="-0.512229" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
-    </view>
-    <userdata longitude="" datetime="" description="" customnodeid="" comment="" heading="0" author="" source="" nodeid="node3" title="LOBBY" copyright="" info="" tags="휴온메디텍스-로비3 0-20231102-114711" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot description="" title="LOBBY" id="Point01" pan="-279.8" target="" tilt="-23.07" skinid="ht_node" url="{node2}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point02" pan="-256.93" target="" tilt="-18.39" skinid="ht_node" url="{node4}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point03" pan="-244.64" target="" tilt="-5.75" skinid="ht_node" url="{node7}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point04" pan="-211.15" target="" tilt="-21.65" skinid="ht_node" url="{node6}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point05" pan="-220.73" target="" tilt="-6.57" skinid="ht_node" url="{node20}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point06" pan="-161.9" target="" tilt="-27.13" skinid="ht_node" url="{node5}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point07" pan="-123.36" target="" tilt="-15.55" skinid="ht_node" url="{node11}"/>
-      <hotspot description="" title="이곳!!!" id="Point08" pan="-241.27" target="" tilt="-24.95" skinid="ht_node" url="{node1}"/>
-      <polyhotspot description="" title="" id="Poly01" target="_blank" url="https://huonsmeditech.com/layout/kor/home.php?go=main">
-        <polystring>-333.23/10.36|-332.67/-15.11|-29.97/-17.46|-31.02/11.34</polystring>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node2" tags="제품" description="IVH" copyright="" title="LOBBY" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot description="" url="{node7}" pan="-306.03" tilt="-2.28" title="AESTHETIC THERAPY" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node20}" pan="-274.99" tilt="-2.75" title="EXTRACORPOREAL SHOCK WAVE" id="Point04" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node11}" pan="-199.84" tilt="-2.92" title="ENDOSCOPE REPROCESSOR" id="Point07" target="" skinid="ht_node"/>
+      <hotspot pan="-359.57" tilt="-12.2" use3D="1" id="제품설명12" skinid="제품설명12" description="" customimage="media/info-22.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <polyhotspot description="" url="{node2}" title="" id="Poly01" target="-173.7/-12.3/117.4">
+        <polystring>-163.74/-18.05|-149.25/-26.54|-149.02/-37.49|-185.09/-43.6|-208.5/-26.25</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node3}" title="" id="Poly02" target="-10.8/0.9/136.9">
+        <polystring>-177.44/-13.45|-166.47/-17.61|-196.5/-24.5|-194.63/-13.62</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node5}" title="" id="Poly03" target="0.0/0.0/136.9">
+        <polystring>-195.44/-13.32|-197.3/-24.14|-210.05/-24.33|-219.91/-13.65|-219.65/-10.14</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node5}" title="" id="Poly04" target="-15.5/-4.8/136.9">
+        <polystring>-220.9/-9.99|-221.15/-14.36|-229.95/-19.68|-237.4/-10.97|-225.55/-9.38</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node6}" title="" id="Poly05" target="0.9/-0.4/136.9">
+        <polystring>-241.18/-11.77|-234.79/-19.69|-266.63/-25.76|-267.85/-14.31|-246.22/-12.1</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node1}" title="" id="Poly06" target="173.0/1.5/136.9">
+        <polystring>-221.84/-21.07|-191.94/-43.48|-252.83/-48.79|-265.09/-27.09|-241.74/-22.7|-233.31/-20.81</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node6}" title="" id="Poly07" target="-7.9/-1.9/136.9">
+        <polystring>-269.26/-13.91|-267.9/-25.08|-290.22/-24.72|-288.34/-12.59</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node4}" title="" id="Poly08" target="5.0/-0.7/136.9">
+        <polystring>-292.78/-16.84|-291.07/-34.56|-318.71/-49.74|-331.73/-25.78|-310.03/-18.56</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node2}" title="" id="Poly09" target="-0.8/0.0/127.0">
+        <polystring>-335.51/-39.36|-307.3/-57.9|-33.44/-51.27|-30.52/-33.84</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <image height="1560" clickmode="0" id="Element01" handcursor="0" stretch="0.956" roty="3.595" popbackmode="0" hidepinned="0" rotz="0.078" rotx="-5.439" fov="59.167" pan="-1.049" width="2880" tilt="-3.320">
-        <source url="media/TV.png"/>
-      </image>
-    </media>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
-  </panorama>
-  <panorama id="node4">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view fovmode="2" pannorth="0">
-      <start fov="136.926" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
-    </view>
-    <userdata longitude="" datetime="" description="" customnodeid="" comment="" heading="0" author="" source="" nodeid="node4" title="AESTHETIC THERAPY" copyright="" info="" tags="휴온메디텍스-에스테틱룸입구-20231102-125512" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot description="" title="이곳!!!" id="Point01" pan="-182.36" target="" tilt="-18.45" skinid="ht_node" url="{node1}"/>
-      <hotspot description="" title="LOBBY" id="Point02" pan="-98.21" target="" tilt="-24.71" skinid="ht_node" url="{node2}"/>
-      <hotspot description="" title="LOBBY" id="Point03" pan="-153.76" target="" tilt="-8.05" skinid="ht_node" url="{node3}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point04" pan="-196.61" target="" tilt="-9.85" skinid="ht_node" url="{node5}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point05" pan="-181.46" target="" tilt="1.34" skinid="ht_node" url="{node11}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point06" pan="-225.9" target="" tilt="-18.23" skinid="ht_node" url="{node6}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point07" pan="-261.07" target="" tilt="-1.35" skinid="ht_node" url="{node20}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point08" pan="-308.92" target="" tilt="-2.01" skinid="ht_node" url="{node7}"/>
-    </hotspots>
-    <media>
-      <image height="1204" clickmode="0" id="Element01" handcursor="0" stretch="0.714" roty="-0.593" popbackmode="0" hidepinned="0" rotz="0.356" rotx="44.947" fov="25.809" pan="0.426" width="1240" tilt="-19.436">
+      <image pan="41.029" tilt="-11.173" clickmode="0" handcursor="0" id="Element01" height="1204" popbackmode="0" hidepinned="0" stretch="0.501" roty="56.603" width="1240" rotz="9.067" fov="13.218" rotx="47.369">
         <source url="media/ .png"/>
       </image>
-      <image height="1560" clickmode="0" id="Element02" handcursor="0" stretch="0.920" roty="-49.920" popbackmode="0" hidepinned="0" rotz="7.080" rotx="6.740" fov="22.550" pan="-144.710" width="2880" tilt="5.870">
+    </media>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama id="node3">
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start pan="2.16535" tilt="-0.512229" projection="4" fov="136.926"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
+    </view>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node3" tags="휴온메디텍스-로비3 0-20231102-114711" description="" copyright="" title="LOBBY" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot description="" url="{node7}" pan="-244.64" tilt="-5.75" title="AESTHETIC THERAPY" id="Point03" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node20}" pan="-220.73" tilt="-6.57" title="EXTRACORPOREAL SHOCK WAVE" id="Point05" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node11}" pan="-123.36" tilt="-15.55" title="ENDOSCOPE REPROCESSOR" id="Point07" target="" skinid="ht_node"/>
+      <polyhotspot description="" url="https://huonsmeditech.com/layout/kor/home.php?go=main" title="" id="Poly01" target="_blank">
+        <polystring>-333.23/10.36|-332.67/-15.11|-29.97/-17.46|-31.02/11.34</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node2}" title="" id="Poly02" target="-0.8/0.0/127.0">
+        <polystring>-268.74/-20.63|-290.66/-20.45|-296.96/-30.77|-261.54/-27.52</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node5}" title="" id="Poly03" target="$fwd">
+        <polystring>-155.7/-25.83|-143.26/-35.44|-183.78/-45.09|-185.63/-29.84</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node5}" title="" id="Poly04" target="-49.7/-3.6/157.2">
+        <polystring>-159.07/-19.89|-156.63/-24.81|-192.38/-28.44|-193.79/-20.78</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node6}" title="" id="Poly05" target="0.0/0.0/136.9">
+        <polystring>-197.12/-19.8|-194.59/-29.71|-227.75/-25.16|-230.07/-13.85|-211.83/-18.67</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node1}" title="" id="Poly06" target="146.6/1.8/136.9">
+        <polystring>-233.14/-20.53|-231.68/-28.45|-211.29/-35.74|-224.67/-48.79|-254.12/-37.3|-253.25/-25.81</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node4}" title="" id="Poly07" target="0.0/0.0/136.9">
+        <polystring>-240.16/-15.94|-238.32/-19.37|-254.57/-25.04|-260.13/-26.82|-267.37/-18.39</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node3}" title="" id="Poly08" target="92.0/-5.9/117.0">
+        <polystring>-298.76/-35.68|-256.91/-28.82|-256.87/-44.61|-336.52/-56.94|-353.11/-33.41</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <image pan="-1.049" tilt="-3.320" clickmode="0" handcursor="0" id="Element01" height="1560" popbackmode="0" hidepinned="0" stretch="0.956" roty="3.595" width="2880" rotz="0.078" fov="59.167" rotx="-5.439">
         <source url="media/TV.png"/>
       </image>
     </media>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama id="node4">
+    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="136.926"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
+    </view>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node4" tags="휴온메디텍스-에스테틱룸입구-20231102-125512" description="" copyright="" title="AESTHETIC THERAPY" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot description="" url="{node11}" pan="-181.46" tilt="1.34" title="ENDOSCOPE REPROCESSOR" id="Point05" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node20}" pan="-261.07" tilt="-1.35" title="EXTRACORPOREAL SHOCK WAVE" id="Point07" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node7}" pan="-308.92" tilt="-2.01" title="AESTHETIC THERAPY" id="Point08" target="" skinid="ht_node"/>
+      <polyhotspot description="" url="{node4}" title="" id="Poly01" target="90.1/-2.0/136.9">
+        <polystring>-277.64/-18.92|-306.16/-35.68|-250.06/-48.12|-240.14/-27.61</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node6}" title="" id="Poly02" target="-1.2/-2.5/136.9">
+        <polystring>-223.33/-13.23|-269.05/-18.72|-235.32/-27.25|-210.34/-22.61</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node5}" title="" id="Poly03" target="-48.1/-8.6/148.1">
+        <polystring>-203.2/-6.58|-220.93/-11.86|-208.95/-21.36|-201.57/-18.2</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node5}" title="" id="Poly04" target="0.0/0.0/136.9">
+        <polystring>-179.67/-8.39|-201.23/-7.35|-200.07/-18.71|-179.85/-14.16</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node1}" title="" id="Poly05" target="-81.7/-2.8/136.9">
+        <polystring>-173.8/-15.75|-211.06/-26|-234.25/-29.99|-231.62/-46.38|-159.21/-40.28|-151.3/-33.18|-154.14/-21.19</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node2}" title="" id="Poly06" target="-0.2/-8.9/100.3">
+        <polystring>-84.25/-24.22|-75.07/-46.23|-125.04/-51.1|-131.16/-35.09|-109.66/-27.74</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node2}" title="" id="Poly07" target="-167.9/-18.3/127.0">
+        <polystring>-100.55/-20.68|-141.15/-12.17|-149.26/-18.87|-148.38/-31.72|-134.85/-34.53</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node3}" title="" id="Poly08" target="-18.5/-0.5/136.9">
+        <polystring>-144.36/-11.27|-152.41/-19.28|-161.65/-16.53|-162.77/-8.66|-151.45/-8.22</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node3}" title="" id="Poly09" target="-137.7/-12.0/100.0">
+        <polystring>-166.7/-9.65|-164.05/-16.95|-177.18/-13.57|-177.59/-8.64</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <image pan="0.426" tilt="-19.436" clickmode="0" handcursor="0" id="Element01" height="1204" popbackmode="0" hidepinned="0" stretch="0.714" roty="-0.593" width="1240" rotz="0.356" fov="25.809" rotx="44.947">
+        <source url="media/ .png"/>
+      </image>
+      <image pan="-144.710" tilt="5.870" clickmode="0" handcursor="0" id="Element02" height="1560" popbackmode="0" hidepinned="0" stretch="0.920" roty="-49.920" width="2880" rotz="7.080" fov="22.550" rotx="6.740">
+        <source url="media/TV.png"/>
+      </image>
+    </media>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node7">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="117.015" pan="-9.4443" tilt="0.225964" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="-9.4443" tilt="0.225964" projection="4" fov="117.015"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="" customnodeid="" comment="" heading="0" author="" source="" nodeid="node7" title="AESTHETIC THERAPY" copyright="" info="" tags="휴온메디텍스-에스테틱-20231102-125517" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point01" pan="-17.69" target="" tilt="-10.75" skinid="ht_node" url="{node8}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point02" pan="-32.73" target="" tilt="-13.12" skinid="ht_node" url="{node8}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point03" pan="-51.64" target="" tilt="-15.16" skinid="ht_node" url="{node8}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point04" pan="-168.53" target="" tilt="-0.45" skinid="ht_node" url="{node4}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node7" tags="휴온메디텍스-에스테틱-20231102-125517" description="" copyright="" title="AESTHETIC THERAPY" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot description="" url="{node8}" pan="-17.69" tilt="-10.75" title="AESTHETIC THERAPY" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node8}" pan="-32.73" tilt="-13.12" title="AESTHETIC THERAPY" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node8}" pan="-51.64" tilt="-15.16" title="AESTHETIC THERAPY" id="Point03" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node4}" pan="-168.53" tilt="-0.45" title="AESTHETIC THERAPY" id="Point04" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node8">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="148.118" pan="-13.7251" tilt="0.296489" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="-13.7251" tilt="0.296489" projection="4" fov="148.118"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="DermaAKNE" customnodeid="" comment="" heading="0" author="" source="" nodeid="node8" title="AESTHETIC THERAPY" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimageheight="79" description="" id="제품설명1" target="_blank" customimagewidth="78" title="" fov="8" pan="-357.51" use3D="1" customimage="media/info.png" distance3D="557.726" tilt="7.99" skinid="제품설명1" url=""/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point01" pan="-138.68" target="" tilt="-2.73" skinid="ht_node" url="{node7}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point02" pan="-52.72" target="" tilt="-22.85" skinid="ht_node" url="{node9}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point03" pan="-68.98" target="" tilt="-15.51" skinid="ht_node" url="{node10}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point04" pan="-110.86" target="" tilt="-1.64" skinid="ht_node" url="{node4}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node8" tags="제품" description="DermaAKNE" copyright="" title="AESTHETIC THERAPY" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-357.51" tilt="7.99" use3D="1" id="제품설명1" skinid="제품설명1" description="" customimage="media/info.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <hotspot description="" url="{node7}" pan="-138.68" tilt="-2.73" title="AESTHETIC THERAPY" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node9}" pan="-52.72" tilt="-22.85" title="AESTHETIC THERAPY" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node10}" pan="-68.98" tilt="-15.51" title="AESTHETIC THERAPY" id="Point03" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node4}" pan="-110.86" tilt="-1.64" title="AESTHETIC THERAPY" id="Point04" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node9">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="136.926" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" projection="4" fov="136.926"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="JILL-SOF" customnodeid="" comment="" heading="0" author="" source="" nodeid="node9" title="AESTHETIC THERAPY" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimageheight="79" description="" id="제품설명2" target="_blank" customimagewidth="78" title="" fov="8" pan="-0.07" use3D="1" customimage="media/info-4.png" distance3D="557.726" tilt="0.53" skinid="제품설명2" url=""/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point01" pan="-303.74" target="" tilt="-14.87" skinid="ht_node" url="{node8}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point02" pan="-151.2" target="" tilt="-2.05" skinid="ht_node" url="{node7}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point03" pan="-50.4" target="" tilt="-17.74" skinid="ht_node" url="{node10}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point04" pan="-117.55" target="" tilt="1.19" skinid="ht_node" url="{node4}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node9" tags="제품" description="JILL-SOF" copyright="" title="AESTHETIC THERAPY" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-0.07" tilt="0.53" use3D="1" id="제품설명2" skinid="제품설명2" description="" customimage="media/info-4.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <hotspot description="" url="{node8}" pan="-303.74" tilt="-14.87" title="AESTHETIC THERAPY" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node7}" pan="-151.2" tilt="-2.05" title="AESTHETIC THERAPY" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node10}" pan="-50.4" tilt="-17.74" title="AESTHETIC THERAPY" id="Point03" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node4}" pan="-117.55" tilt="1.19" title="AESTHETIC THERAPY" id="Point04" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node10">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="148.118" pan="13.4699" tilt="0.422888" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="13.4699" tilt="0.422888" projection="4" fov="148.118"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="Dermashine PRO" customnodeid="" comment="" heading="0" author="" source="" nodeid="node10" title="AESTHETIC THERAPY" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimageheight="79" description="" id="제품설명3" target="_blank" customimagewidth="78" title="" fov="8" pan="-1.65" use3D="1" customimage="media/info-3.png" distance3D="557.726" tilt="1.32" skinid="제품설명3" url=""/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point01" pan="-289.01" target="" tilt="-10.35" skinid="ht_node" url="{node8}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point02" pan="-311.36" target="" tilt="-15.3" skinid="ht_node" url="{node9}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point03" pan="-170.41" target="" tilt="0.32" skinid="ht_node" url="{node7}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point04" pan="-128.3" target="" tilt="2.05" skinid="ht_node" url="{node4}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node10" tags="제품" description="Dermashine PRO" copyright="" title="AESTHETIC THERAPY" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-1.65" tilt="1.32" use3D="1" id="제품설명3" skinid="제품설명3" description="" customimage="media/info-3.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <hotspot description="" url="{node8}" pan="-289.01" tilt="-10.35" title="AESTHETIC THERAPY" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node9}" pan="-311.36" tilt="-15.3" title="AESTHETIC THERAPY" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node7}" pan="-170.41" tilt="0.32" title="AESTHETIC THERAPY" id="Point03" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node4}" pan="-128.3" tilt="2.05" title="AESTHETIC THERAPY" id="Point04" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node5">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="136.926" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" projection="4" fov="136.926"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="" customnodeid="" comment="" heading="0" author="" source="" nodeid="node5" title="ENDOSCOPE REPROCESSOR" copyright="" info="" tags="휴온메디텍스-엔도스코피룸입구-20231102-125724" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot description="" title="LOBBY" id="Point01" pan="-261.6" target="" tilt="-17.23" skinid="ht_node" url="{node3}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point02" pan="-309.83" target="" tilt="-3.18" skinid="ht_node" url="{node11}"/>
-      <hotspot description="" title="이곳!!!" id="Point03" pan="-230.71" target="" tilt="-16.06" skinid="ht_node" url="{node1}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point04" pan="-198.02" target="" tilt="-8.29" skinid="ht_node" url="{node4}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point05" pan="-181.48" target="" tilt="0.14" skinid="ht_node" url="{node7}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point06" pan="-164.18" target="" tilt="-19.05" skinid="ht_node" url="{node6}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point07" pan="-158.79" target="" tilt="0.55" skinid="ht_node" url="{node20}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node5" tags="휴온메디텍스-엔도스코피룸입구-20231102-125724" description="" copyright="" title="ENDOSCOPE REPROCESSOR" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot description="" url="{node11}" pan="-309.83" tilt="-3.18" title="ENDOSCOPE REPROCESSOR" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node7}" pan="-181.48" tilt="0.14" title="AESTHETIC THERAPY" id="Point05" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node20}" pan="-158.79" tilt="0.55" title="EXTRACORPOREAL SHOCK WAVE" id="Point07" target="" skinid="ht_node"/>
+      <polyhotspot description="" url="{node3}" title="" id="Poly01" target="-4.3/-2.9/157.2">
+        <polystring>-289.23/-22.19|-322.93/-35.36|-245.88/-41.85|-242.65/-23.24</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node3}" title="" id="Poly02" target="-5.9/-2.6/126.6">
+        <polystring>-250.13/-11.14|-237.97/-11.25|-242.22/-22.1|-289.27/-20.46|-276.58/-10.5</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node1}" title="" id="Poly03" target="41.9/1.3/108.2">
+        <polystring>-207.68/-10.6|-189.81/-17.57|-202.67/-34.63|-238.55/-37.91|-239.57/-22.88|-227.4/-22.57</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node2}" title="" id="Poly04" target="-34.5/-7.0/127.0">
+        <polystring>-212.88/-10.87|-228.14/-20.95|-236.94/-13.37|-226.71/-8.87</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node6}" title="" id="Poly05" target="-44.8/-7.6/157.2">
+        <polystring>-158.28/-15.3|-143.94/-26.39|-186.4/-38.28|-199.51/-35.24|-187.88/-20.91</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node4}" title="" id="Poly06" target="0.0/0.0/136.9">
+        <polystring>-171.23/-9.49|-164.65/-13.61|-185.72/-18.15|-192.71/-12.81|-207.19/-8.96</polystring>
+      </polyhotspot>
     </hotspots>
     <media>
-      <image height="100" clickmode="0" id="Element01" handcursor="0" stretch="0.751" roty="1.000" popbackmode="0" hidepinned="0" rotz="1.270" rotx="47.070" fov="26.240" pan="1.560" width="100" tilt="-19.260">
+      <image pan="1.560" tilt="-19.260" clickmode="0" handcursor="0" id="Element01" height="100" popbackmode="0" hidepinned="0" stretch="0.751" roty="1.000" width="100" rotz="1.270" fov="26.240" rotx="47.070">
         <source url="media/image.png"/>
       </image>
-      <image height="100" clickmode="0" id="Element02" handcursor="0" stretch="0.500" roty="14.579" popbackmode="0" hidepinned="0" rotz="-1.274" rotx="8.695" fov="25.326" pan="97.008" width="100" tilt="7.084">
+      <image pan="97.008" tilt="7.084" clickmode="0" handcursor="0" id="Element02" height="100" popbackmode="0" hidepinned="0" stretch="0.500" roty="14.579" width="100" rotz="-1.274" fov="25.326" rotx="8.695">
         <source url="media/TV.png"/>
       </image>
     </media>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node11">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="117.015" pan="-26.6304" tilt="0.0785273" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="-26.6304" tilt="0.0785273" projection="4" fov="117.015"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="" customnodeid="" comment="" heading="0" author="" source="" nodeid="node11" title="ENDOSCOPE REPROCESSOR" copyright="" info="" tags="휴온메디텍스-엔도스코피-20231102-125808" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point01" pan="-68.66" target="" tilt="-17.45" skinid="ht_node" url="{node12}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point02" pan="-48.08" target="" tilt="-13.41" skinid="ht_node" url="{node13}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point03" pan="-35.11" target="" tilt="-10.9" skinid="ht_node" url="{node14}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point04" pan="-180.04" target="" tilt="-8.57" skinid="ht_node" url="{node5}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node11" tags="휴온메디텍스-엔도스코피-20231102-125808" description="" copyright="" title="ENDOSCOPE REPROCESSOR" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot description="" url="{node12}" pan="-68.66" tilt="-17.45" title="ENDOSCOPE REPROCESSOR" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node13}" pan="-48.08" tilt="-13.41" title="ENDOSCOPE REPROCESSOR" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node14}" pan="-35.11" tilt="-10.9" title="ENDOSCOPE REPROCESSOR" id="Point03" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node5}" pan="-180.04" tilt="-8.57" title="ENDOSCOPE REPROCESSOR" id="Point04" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node12">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="126.58" pan="0.53813" tilt="0.584772" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="0.53813" tilt="0.584772" projection="4" fov="126.58"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="HUEN DR 02" customnodeid="" comment="" heading="0" author="" source="" nodeid="node12" title="ENDOSCOPE REPROCESSOR" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimageheight="79" description="" id="제품설명4" target="_blank" customimagewidth="78" title="" fov="8" pan="-358.62" use3D="1" customimage="media/info-7.png" distance3D="557.726" tilt="0.26" skinid="제품설명4" url=""/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point01" pan="-309.92" target="" tilt="-20.21" skinid="ht_node" url="{node13}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point02" pan="-293.23" target="" tilt="-13.96" skinid="ht_node" url="{node14}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point03" pan="-134.03" target="" tilt="-6.95" skinid="ht_node" url="{node5}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node12" tags="제품" description="HUEN DR 02" copyright="" title="ENDOSCOPE REPROCESSOR" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-358.62" tilt="0.26" use3D="1" id="제품설명4" skinid="제품설명4" description="" customimage="media/info-7.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <hotspot description="" url="{node13}" pan="-309.92" tilt="-20.21" title="ENDOSCOPE REPROCESSOR" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node14}" pan="-293.23" tilt="-13.96" title="ENDOSCOPE REPROCESSOR" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node5}" pan="-134.03" tilt="-6.95" title="ENDOSCOPE REPROCESSOR" id="Point03" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node13">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="126.58" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" projection="4" fov="126.58"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="HUEN DR 01" customnodeid="" comment="" heading="0" author="" source="" nodeid="node13" title="ENDOSCOPE REPROCESSOR" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimageheight="79" description="" id="제품설명5" target="_blank" customimagewidth="78" title="" fov="8" pan="-359.01" use3D="1" customimage="media/info-5.png" distance3D="557.726" tilt="3.16" skinid="제품설명5" url=""/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point01" pan="-50.66" target="" tilt="-21.29" skinid="ht_node" url="{node12}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point02" pan="-311.4" target="" tilt="-20.79" skinid="ht_node" url="{node14}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point03" pan="-116.57" target="" tilt="-2.55" skinid="ht_node" url="{node5}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node13" tags="제품" description="HUEN DR 01" copyright="" title="ENDOSCOPE REPROCESSOR" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-359.01" tilt="3.16" use3D="1" id="제품설명5" skinid="제품설명5" description="" customimage="media/info-5.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <hotspot description="" url="{node12}" pan="-50.66" tilt="-21.29" title="ENDOSCOPE REPROCESSOR" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node14}" pan="-311.4" tilt="-20.79" title="ENDOSCOPE REPROCESSOR" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node5}" pan="-116.57" tilt="-2.55" title="ENDOSCOPE REPROCESSOR" id="Point03" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node14">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="126.58" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" projection="4" fov="126.58"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="휴엔 싱글" customnodeid="" comment="" heading="0" author="" source="" nodeid="node14" title="ENDOSCOPE REPROCESSOR" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimageheight="79" description="" id="제품설명6" target="_blank" customimagewidth="78" title="" fov="8" pan="-0.46" use3D="1" customimage="media/info-6.png" distance3D="557.726" tilt="-1.19" skinid="제품설명6" url=""/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point01" pan="-67.81" target="" tilt="-13.67" skinid="ht_node" url="{node12}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point02" pan="-50.19" target="" tilt="-20.37" skinid="ht_node" url="{node13}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point03" pan="-108.83" target="" tilt="-2.83" skinid="ht_node" url="{node5}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node14" tags="제품" description="휴엔 싱글" copyright="" title="ENDOSCOPE REPROCESSOR" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-0.46" tilt="-1.19" use3D="1" id="제품설명6" skinid="제품설명6" description="" customimage="media/info-6.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <hotspot description="" url="{node12}" pan="-67.81" tilt="-13.67" title="ENDOSCOPE REPROCESSOR" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node13}" pan="-50.19" tilt="-20.37" title="ENDOSCOPE REPROCESSOR" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node5}" pan="-108.83" tilt="-2.83" title="ENDOSCOPE REPROCESSOR" id="Point03" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node6">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="136.926" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" projection="4" fov="136.926"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="" customnodeid="" comment="" heading="0" author="" source="" nodeid="node6" title="EXTRACORPOREAL SHOCK WAVE" copyright="" info="" tags="휴온메디텍스-체외충격파룸입구-20231102-131746" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" pan="-54.31" target="" tilt="0.41" skinid="ht_node" url="{node20}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point02" pan="-127.22" target="" tilt="-16.35" skinid="ht_node" url="{node4}"/>
-      <hotspot description="" title="AESTHETIC THERAPY" id="Point03" pan="-98.94" target="" tilt="2.31" skinid="ht_node" url="{node7}"/>
-      <hotspot description="" title="LOBBY" id="Point04" pan="-151.27" target="" tilt="-11.63" skinid="ht_node" url="{node2}"/>
-      <hotspot description="" title="이곳!!!" id="Point05" pan="-168.52" target="" tilt="-13.56" skinid="ht_node" url="{node1}"/>
-      <hotspot description="" title="LOBBY" id="Point06" pan="-207.85" target="" tilt="-10.64" skinid="ht_node" url="{node3}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point07" pan="-259.9" target="" tilt="-18.07" skinid="ht_node" url="{node5}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point08" pan="-243.77" target="" tilt="1.68" skinid="ht_node" url="{node11}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node6" tags="휴온메디텍스-체외충격파룸입구-20231102-131746" description="" copyright="" title="EXTRACORPOREAL SHOCK WAVE" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot description="" url="{node20}" pan="-54.31" tilt="0.41" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node7}" pan="-98.94" tilt="2.31" title="AESTHETIC THERAPY" id="Point03" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node11}" pan="-243.77" tilt="1.68" title="ENDOSCOPE REPROCESSOR" id="Point08" target="" skinid="ht_node"/>
+      <polyhotspot description="" url="{node6}" title="" id="Poly01" target="-101.1/-2.1/108.2">
+        <polystring>-83.87/-18.43|-67.96/-24.54|-104.69/-37.46|-120.69/-20.47</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node4}" title="" id="Poly02" target="0.0/0.0/136.9">
+        <polystring>-95.68/-17.62|-122.95/-19.53|-131.32/-18.18|-131.24/-12.49</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node2}" title="" id="Poly03" target="-1.8/-3.2/108.5">
+        <polystring>-140.43/-14.83|-137.46/-27.3|-162.71/-23.16|-157.65/-10.38|-151.04/-8.73</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node1}" title="" id="Poly04" target="6.5/0.3/100.0">
+        <polystring>-162.41/-10.7|-176.28/-41.83|-200.11/-23.09|-192.03/-11.38</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node6}" title="" id="Poly05" target="-170.5/-8.9/108.2">
+        <polystring>-121.74/-37.38|-88.36/-43.29|-172.73/-67.38|-184.14/-46.38</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node3}" title="" id="Poly06" target="-4.0/-1.4/126.6">
+        <polystring>-199.46/-12.27|-221.33/-42.87|-228.16/-10.7|-210.89/-8.96</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node5}" title="" id="Poly07" target="3.0/-1.0/136.9">
+        <polystring>-232.7/-11.77|-267.07/-16.12|-261.87/-49.92|-223.31/-46.93</polystring>
+      </polyhotspot>
+      <polyhotspot description="" url="{node6}" title="" id="Poly08" target="95.8/-3.1/85.5">
+        <polystring>-271.68/-16.8|-266.88/-51.8|-307.71/-49.75|-295.68/-19.87</polystring>
+      </polyhotspot>
     </hotspots>
     <media>
-      <image height="100" clickmode="0" id="Element01" handcursor="0" stretch="0.711" roty="0.992" popbackmode="0" hidepinned="0" rotz="-0.206" rotx="43.394" fov="27.111" pan="-0.148" width="100" tilt="-19.916">
+      <image pan="-0.148" tilt="-19.916" clickmode="0" handcursor="0" id="Element01" height="100" popbackmode="0" hidepinned="0" stretch="0.711" roty="0.992" width="100" rotz="-0.206" fov="27.111" rotx="43.394">
         <source url="media/ -19.png"/>
       </image>
-      <image height="1560" clickmode="0" id="Element02" handcursor="0" stretch="0.847" roty="-29.060" popbackmode="0" hidepinned="0" rotz="1.100" rotx="1.340" fov="23.400" pan="157.320" width="2880" tilt="5.720">
+      <image pan="157.320" tilt="5.720" clickmode="0" handcursor="0" id="Element02" height="1560" popbackmode="0" hidepinned="0" stretch="0.847" roty="-29.060" width="2880" rotz="1.100" fov="23.400" rotx="1.340">
         <source url="media/TV.png"/>
       </image>
     </media>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node20">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="117.015" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" projection="4" fov="117.015"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="" customnodeid="" comment="" heading="0" author="" source="" nodeid="node20" title="EXTRACORPOREAL SHOCK WAVE" copyright="" info="" tags="휴온메디텍스-체외충격파-20231102-143203" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" pan="-26.07" target="" tilt="-8.12" skinid="ht_node" url="{node17}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point02" pan="-20.83" target="" tilt="-5.64" skinid="ht_node" url="{node16}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point03" pan="-148.16" target="" tilt="-5.54" skinid="ht_node" url="{node6}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point04" pan="-340.68" target="" tilt="-3.35" skinid="ht_node" url="{node19}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node20" tags="휴온메디텍스-체외충격파-20231102-143203" description="" copyright="" title="EXTRACORPOREAL SHOCK WAVE" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot description="" url="{node17}" pan="-26.07" tilt="-8.12" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node16}" pan="-20.83" tilt="-5.64" title="EXTRACORPOREAL SHOCK WAVE" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node6}" pan="-148.16" tilt="-5.54" title="EXTRACORPOREAL SHOCK WAVE" id="Point03" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node19}" pan="-340.68" tilt="-3.35" title="EXTRACORPOREAL SHOCK WAVE" id="Point04" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node19">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="117.015" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" projection="4" fov="117.015"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="URO-EMXD" customnodeid="" comment="" heading="0" author="" source="" nodeid="node19" title="EXTRACORPOREAL SHOCK WAVE" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimageheight="79" description="" id="제품설명7" target="_blank" customimagewidth="78" title="" fov="8" pan="-357.66" use3D="1" customimage="media/info-15.png" distance3D="557.726" tilt="-13.83" skinid="제품설명7" url=""/>
-      <hotspot customimageheight="64" description="" id="제품표지판7" target="" customimagewidth="100" title="" fov="8" pan="-50.24" use3D="1" customimage="media/1.png" distance3D="715.033" tilt="3.17" skinid="제품표지판1" url="{node19}"/>
-      <hotspot customimageheight="64" description="" id="제품표지판8" target="" customimagewidth="100" title="EXTRACORPOREAL SHOCK WAVE" fov="8" pan="-50.18" use3D="1" customimage="media/2.png" distance3D="715.033" tilt="-1.97" skinid="제품표지판1" url="{node15}"/>
-      <hotspot customimageheight="64" description="" id="제품표지판9" target="" customimagewidth="100" title="EXTRACORPOREAL SHOCK WAVE" fov="8" pan="-50.14" use3D="1" customimage="media/3.png" distance3D="715.033" tilt="-7" skinid="제품표지판1" url="{node18}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" pan="-132.93" target="" tilt="-1.15" skinid="ht_node" url="{node16}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node19" tags="제품" description="URO-EMXD" copyright="" title="EXTRACORPOREAL SHOCK WAVE" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-357.66" tilt="-13.83" use3D="1" id="제품설명7" skinid="제품설명7" description="" customimage="media/info-15.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <hotspot pan="-50.24" tilt="3.17" use3D="1" id="제품표지판7" skinid="제품표지판1" description="" customimage="media/1.png" distance3D="715.033" url="{node19}" customimageheight="64" title="" customimagewidth="100" target="" fov="8"/>
+      <hotspot pan="-50.18" tilt="-1.97" use3D="1" id="제품표지판8" skinid="제품표지판1" description="" customimage="media/2.png" distance3D="715.033" url="{node15}" customimageheight="64" title="EXTRACORPOREAL SHOCK WAVE" customimagewidth="100" target="" fov="8"/>
+      <hotspot pan="-50.14" tilt="-7" use3D="1" id="제품표지판9" skinid="제품표지판1" description="" customimage="media/3.png" distance3D="715.033" url="{node18}" customimageheight="64" title="EXTRACORPOREAL SHOCK WAVE" customimagewidth="100" target="" fov="8"/>
+      <hotspot description="" url="{node16}" pan="-132.93" tilt="-1.15" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node15">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="117.015" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" projection="4" fov="117.015"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="URO-EMX" customnodeid="" comment="" heading="0" author="" source="" nodeid="node15" title="EXTRACORPOREAL SHOCK WAVE" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimageheight="79" description="" id="제품설명9" target="_blank" customimagewidth="78" title="" fov="8" pan="-357.44" use3D="1" customimage="media/info-9.png" distance3D="557.726" tilt="-14.3" skinid="제품설명9" url=""/>
-      <hotspot customimageheight="64" description="" id="제품표지판4" target="" customimagewidth="100" title="EXTRACORPOREAL SHOCK WAVE" fov="8" pan="-50.69" use3D="1" customimage="media/1-5.png" distance3D="715.033" tilt="2.38" skinid="제품표지판1" url="{node19}"/>
-      <hotspot customimageheight="64" description="" id="제품표지판5" target="" customimagewidth="100" title="EXTRACORPOREAL SHOCK WAVE" fov="8" pan="-50.52" use3D="1" customimage="media/2-5.png" distance3D="715.033" tilt="-2.27" skinid="제품표지판1" url="{node15}"/>
-      <hotspot customimageheight="64" description="" id="제품표지판6" target="" customimagewidth="100" title="EXTRACORPOREAL SHOCK WAVE" fov="8" pan="-50.43" use3D="1" customimage="media/3-5.png" distance3D="715.033" tilt="-6.38" skinid="제품표지판1" url="{node18}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" pan="-133.56" target="" tilt="0.63" skinid="ht_node" url="{node16}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node15" tags="제품" description="URO-EMX" copyright="" title="EXTRACORPOREAL SHOCK WAVE" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-357.44" tilt="-14.3" use3D="1" id="제품설명9" skinid="제품설명9" description="" customimage="media/info-9.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <hotspot pan="-50.69" tilt="2.38" use3D="1" id="제품표지판4" skinid="제품표지판1" description="" customimage="media/1-5.png" distance3D="715.033" url="{node19}" customimageheight="64" title="EXTRACORPOREAL SHOCK WAVE" customimagewidth="100" target="" fov="8"/>
+      <hotspot pan="-50.52" tilt="-2.27" use3D="1" id="제품표지판5" skinid="제품표지판1" description="" customimage="media/2-5.png" distance3D="715.033" url="{node15}" customimageheight="64" title="EXTRACORPOREAL SHOCK WAVE" customimagewidth="100" target="" fov="8"/>
+      <hotspot pan="-50.43" tilt="-6.38" use3D="1" id="제품표지판6" skinid="제품표지판1" description="" customimage="media/3-5.png" distance3D="715.033" url="{node18}" customimageheight="64" title="EXTRACORPOREAL SHOCK WAVE" customimagewidth="100" target="" fov="8"/>
+      <hotspot description="" url="{node16}" pan="-133.56" tilt="0.63" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node18">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="117.015" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="0" tilt="0" projection="4" fov="117.015"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="URO-MXD" customnodeid="" comment="" heading="0" author="" source="" nodeid="node18" title="EXTRACORPOREAL SHOCK WAVE" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimageheight="79" description="" id="제품설명8" target="_blank" customimagewidth="78" title="" fov="8" pan="-357.04" use3D="1" customimage="media/info-8.png" distance3D="557.726" tilt="-12.81" skinid="제품설명8" url=""/>
-      <hotspot customimageheight="64" description="" id="제품표지판1" target="" customimagewidth="100" title="EXTRACORPOREAL SHOCK WAVE" fov="8" pan="-51.06" use3D="1" customimage="media/1-9.png" distance3D="715.033" tilt="3.23" skinid="제품표지판1" url="{node19}"/>
-      <hotspot customimageheight="64" description="" id="제품표지판2" target="" customimagewidth="100" title="EXTRACORPOREAL SHOCK WAVE" fov="8" pan="-50.99" use3D="1" customimage="media/2-9.png" distance3D="715.033" tilt="-1.48" skinid="제품표지판1" url="{node15}"/>
-      <hotspot customimageheight="64" description="" id="제품표지판3" target="" customimagewidth="100" title="EXTRACORPOREAL SHOCK WAVE" fov="8" pan="-50.99" use3D="1" customimage="media/3-9.png" distance3D="715.033" tilt="-6.34" skinid="제품표지판1" url="{node18}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" pan="-134.61" target="" tilt="-1.57" skinid="ht_node" url="{node16}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node18" tags="제품" description="URO-MXD" copyright="" title="EXTRACORPOREAL SHOCK WAVE" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-357.04" tilt="-12.81" use3D="1" id="제품설명8" skinid="제품설명8" description="" customimage="media/info-8.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <hotspot pan="-51.06" tilt="3.23" use3D="1" id="제품표지판1" skinid="제품표지판1" description="" customimage="media/1-9.png" distance3D="715.033" url="{node19}" customimageheight="64" title="EXTRACORPOREAL SHOCK WAVE" customimagewidth="100" target="" fov="8"/>
+      <hotspot pan="-50.99" tilt="-1.48" use3D="1" id="제품표지판2" skinid="제품표지판1" description="" customimage="media/2-9.png" distance3D="715.033" url="{node15}" customimageheight="64" title="EXTRACORPOREAL SHOCK WAVE" customimagewidth="100" target="" fov="8"/>
+      <hotspot pan="-50.99" tilt="-6.34" use3D="1" id="제품표지판3" skinid="제품표지판1" description="" customimage="media/3-9.png" distance3D="715.033" url="{node18}" customimageheight="64" title="EXTRACORPOREAL SHOCK WAVE" customimagewidth="100" target="" fov="8"/>
+      <hotspot description="" url="{node16}" pan="-134.61" tilt="-1.57" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node16">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="117.015" pan="-6.22097" tilt="0.200667" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="-6.22097" tilt="0.200667" projection="4" fov="117.015"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="IMPO 88" customnodeid="" comment="" heading="0" author="" source="" nodeid="node16" title="EXTRACORPOREAL SHOCK WAVE" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimageheight="79" description="" id="제품설명10" target="_blank" customimagewidth="78" title="" fov="8" pan="-0.33" use3D="1" customimage="media/info-20.png" distance3D="557.726" tilt="8.5" skinid="제품설명 10" url=""/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" pan="-51.31" target="" tilt="-11.19" skinid="ht_node" url="{node17}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point02" pan="-109.9" target="" tilt="-10.95" skinid="ht_node" url="{node20}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point03" pan="-95.41" target="" tilt="1.2" skinid="ht_node" url="{node6}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point04" pan="-142.29" target="" tilt="-1.76" skinid="ht_node" url="{node19}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node16" tags="제품" description="IMPO 88" copyright="" title="EXTRACORPOREAL SHOCK WAVE" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-0.33" tilt="8.5" use3D="1" id="제품설명10" skinid="제품설명 10" description="" customimage="media/info-20.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <hotspot description="" url="{node17}" pan="-51.31" tilt="-11.19" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node20}" pan="-109.9" tilt="-10.95" title="EXTRACORPOREAL SHOCK WAVE" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node6}" pan="-95.41" tilt="1.2" title="EXTRACORPOREAL SHOCK WAVE" id="Point03" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node19}" pan="-142.29" tilt="-1.76" title="EXTRACORPOREAL SHOCK WAVE" id="Point04" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <panorama id="node17">
-    <input levelingroll="0" height="3000" overlap="1" levelingpitch="0" leveltilesize="510" width="3000" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level height="3000" predecode="0" preload="0" width="3000"/>
-      <level height="1500" predecode="0" preload="0" width="1500"/>
-      <level height="750" predecode="0" preload="0" width="750"/>
-      <level height="375" predecode="1" preload="1" width="375"/>
-      <preview strip="1" color="0x808080"/>
+    <input leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" height="3000" overlap="1" levelbias="0.400" leveltilesize="510" levelingroll="0" width="3000">
+      <level preload="0" predecode="0" width="3000" height="3000"/>
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start fov="117.015" pan="6.47252" tilt="0.323305" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
+      <start pan="6.47252" tilt="0.323305" projection="4" fov="117.015"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max scaletofit="1" fovstereographic="330" pan="360" tilt="90" fov="140" fovfisheye="360"/>
     </view>
-    <userdata longitude="" datetime="" description="MT 3000" customnodeid="" comment="" heading="0" author="" source="" nodeid="node17" title="EXTRACORPOREAL SHOCK WAVE" copyright="" info="" tags="제품" latitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot customimageheight="79" description="" id="제품설명11" target="_blank" customimagewidth="78" title="" fov="8" pan="-0.72" use3D="1" customimage="media/info-11.png" distance3D="557.726" tilt="6.95" skinid="제품설명11" url=""/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" pan="-310.09" target="" tilt="-15.54" skinid="ht_node" url="{node16}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point02" pan="-167.16" target="" tilt="-1.99" skinid="ht_node" url="{node19}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point03" pan="-115.97" target="" tilt="-13.28" skinid="ht_node" url="{node20}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point04" pan="-96.72" target="" tilt="-1.04" skinid="ht_node" url="{node6}"/>
+    <userdata source="" info="" latitude="" heading="0" datetime="" nodeid="node17" tags="제품" description="MT 3000" copyright="" title="EXTRACORPOREAL SHOCK WAVE" author="" comment="" longitude="" customnodeid=""/>
+    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" backgroundcolor="0xffffff" border="1" enabled="1" bordercolor="0x000000" wordwrap="1" width="180" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot pan="-0.72" tilt="6.95" use3D="1" id="제품설명11" skinid="제품설명11" description="" customimage="media/info-11.png" distance3D="557.726" url="" customimageheight="79" title="" customimagewidth="78" target="_blank" fov="8"/>
+      <hotspot description="" url="{node16}" pan="-310.09" tilt="-15.54" title="EXTRACORPOREAL SHOCK WAVE" id="Point01" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node19}" pan="-167.16" tilt="-1.99" title="EXTRACORPOREAL SHOCK WAVE" id="Point02" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node20}" pan="-115.97" tilt="-13.28" title="EXTRACORPOREAL SHOCK WAVE" id="Point03" target="" skinid="ht_node"/>
+      <hotspot description="" url="{node6}" pan="-96.72" tilt="-1.04" title="EXTRACORPOREAL SHOCK WAVE" id="Point04" target="" skinid="ht_node"/>
     </hotspots>
     <media/>
-    <transition zoomafterinfov="140" enabled="1" zoomspeed="2" delay="none" softedge="0" zoomoutpause="1" type="crossdissolve" zoomfov="40" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomout="0" blendtime="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control lockedmouse="0" rubberband="0" lockedkeyboard="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" hideabout="0" contextvr="1" simulatemass="1" zoomcentercursor="1" lockedkeyboardzoom="0" invertcontrol="1" contextprojections="0" invertwheel="0" contextfullscreen="1"/>
+    <transition zoomoutpause="1" zoomspeed="2" zoomafterinfov="140" zoomin="0" softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" type="crossdissolve" blendcolor="0x000000" delay="none"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" zoomcentercursor="1" sensitivity="8" invertwheel="0" lockedwheel="0" speedwheel="1" contextvr="1" lockedmouse="0" contextfullscreen="1" invertcontrol="1"/>
   </panorama>
   <masternode>
-    <userdata description="" title="" copyright="" comment="" tags="" author=""/>
+    <userdata description="" copyright="" title="" author="" comment="" tags=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
