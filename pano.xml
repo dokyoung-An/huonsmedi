@@ -14,20 +14,46 @@
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="330" fov="140" pan="360" fovfisheye="360" scaletofit="1" tilt="90"/>
     </view>
-    <userdata longitude="" datetime="" description="" customnodeid="" comment="" heading="0" author="" source="" nodeid="node1" title="LOBBY" copyright="" info="" tags="휴온메디텍스-로비1 1-20231102-114711" latitude=""/>
+    <userdata longitude="" datetime="" description="" customnodeid="" comment="" heading="0" author="" source="" nodeid="node1" title="이곳!!!" copyright="" info="" tags="휴온메디텍스-로비1 1-20231102-114711" latitude=""/>
     <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
       <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
       <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot description="" title="LOBBY" id="Point01" pan="-311.96" target="" tilt="-21.17" skinid="ht_node" url="{node2}"/>
-      <hotspot description="" title="LOBBY" id="Point02" pan="-35.62" target="" tilt="-25.03" skinid="ht_node" url="{node3}"/>
       <hotspot description="" title="AESTHETIC THERAPY" id="Point03" pan="-274.64" target="" tilt="-22.76" skinid="ht_node" url="{node4}"/>
       <hotspot description="" title="AESTHETIC THERAPY" id="Point04" pan="-251.86" target="" tilt="-2.73" skinid="ht_node" url="{node7}"/>
-      <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point05" pan="-192.45" target="" tilt="-30.23" skinid="ht_node" url="{node6}"/>
       <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point06" pan="-215.69" target="" tilt="-1.78" skinid="ht_node" url="{node20}"/>
-      <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point07" pan="-116.25" target="" tilt="-23.47" skinid="ht_node" url="{node5}"/>
       <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point08" pan="-87.1" target="" tilt="-4.12" skinid="ht_node" url="{node11}"/>
       <polyhotspot description="" title="" id="Poly01" target="_blank" url="https://huonsmeditech.com/layout/kor/home.php?go=main">
         <polystring>-10.37/11.85|-10.1/-3.35|-38.53/-3.56|-39.13/10.73</polystring>
+      </polyhotspot>
+      <polyhotspot description="" title="" id="poly1" target="-2.0/-3.7/126.6" url="{node3}">
+        <polystring>-6.05/-16.77|-37.22/-17.13|-67.43/-23.58|-23.43/-35.79</polystring>
+      </polyhotspot>
+      <polyhotspot description="" title="" id="poly2" target="-108.7/-14.7/117.0" url="{node3}">
+        <polystring>-73.61/-23.53|-98.8/-23.87|-106.27/-41.37|-59.58/-50.14|-28.52/-39.37</polystring>
+      </polyhotspot>
+      <polyhotspot description="" title="" id="Poly02" target="-1.4/-1.8/136.9" url="{node5}">
+        <polystring>-103.66/-24.19|-110.65/-42.96|-137.22/-28.55|-134.35/-16.6|-122.92/-18.78</polystring>
+      </polyhotspot>
+      <polyhotspot description="" title="" id="Poly03" target="-112.3/-5.2/136.9" url="{node5}">
+        <polystring>-144.82/-23.25|-118.58/-43.96|-164.13/-59.73|-176.11/-36.21|-179.33/-23.6</polystring>
+      </polyhotspot>
+      <polyhotspot description="" title="" id="Poly05" target="-93.7/-7.9/108.2" url="{node6}">
+        <polystring>-231.03/-18.7|-227.81/-41.86|-262.47/-50.29|-269.84/-22.91|-253.31/-18.28</polystring>
+      </polyhotspot>
+      <polyhotspot description="" title="" id="Poly06" target="0.0/0.0/136.9" url="{node4}">
+        <polystring>-271.29/-21.34|-264.99/-49.39|-288.86/-43.11|-286.98/-20.93|-280.04/-18.42</polystring>
+      </polyhotspot>
+      <polyhotspot description="" title="" id="Poly07" target="-0.8/0.0/117.4" url="{node2}">
+        <polystring>-291.85/-22.24|-294.53/-42.61|-335.41/-44.3|-327.65/-22|-318.74/-14.05</polystring>
+      </polyhotspot>
+      <polyhotspot description="" title="" id="Poly08" target="-111.1/-14.0/127.0" url="{node2}">
+        <polystring>-332.28/-23.18|-339.97/-50.34|-24.59/-39.3|-5.1/-18.44</polystring>
+      </polyhotspot>
+      <polyhotspot description="" title="" id="Poly04" target="-18.1/-11.5/136.9" url="{node6}">
+        <polystring>-206.39/-23.21|-228.99/-17.05|-225.38/-42.47|-204.72/-50.9</polystring>
+      </polyhotspot>
+      <polyhotspot description="" title="" id="Poly09" target="0.0/0.0/136.9" url="{node6}">
+        <polystring>-180.82/-24.76|-202.54/-23.16|-201.78/-59.14|-168.32/-59.68</polystring>
       </polyhotspot>
     </hotspots>
     <media>
@@ -61,7 +87,7 @@
       <hotspot description="" title="AESTHETIC THERAPY" id="Point02" pan="-306.03" target="" tilt="-2.28" skinid="ht_node" url="{node7}"/>
       <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point03" pan="-254.26" target="" tilt="-14.96" skinid="ht_node" url="{node6}"/>
       <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point04" pan="-274.99" target="" tilt="-2.75" skinid="ht_node" url="{node20}"/>
-      <hotspot description="" title="LOBBY" id="Point05" pan="-240.3" target="" tilt="-24.83" skinid="ht_node" url="{node1}"/>
+      <hotspot description="" title="이곳!!!" id="Point05" pan="-240.3" target="" tilt="-24.83" skinid="ht_node" url="{node1}"/>
       <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point06" pan="-221.2" target="" tilt="-11.31" skinid="ht_node" url="{node5}"/>
       <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point07" pan="-199.84" target="" tilt="-2.92" skinid="ht_node" url="{node11}"/>
       <hotspot description="" title="LOBBY" id="Point08" pan="-182.05" target="" tilt="-17.07" skinid="ht_node" url="{node3}"/>
@@ -101,7 +127,7 @@
       <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point05" pan="-220.73" target="" tilt="-6.57" skinid="ht_node" url="{node20}"/>
       <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point06" pan="-161.9" target="" tilt="-27.13" skinid="ht_node" url="{node5}"/>
       <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point07" pan="-123.36" target="" tilt="-15.55" skinid="ht_node" url="{node11}"/>
-      <hotspot description="" title="LOBBY" id="Point08" pan="-241.27" target="" tilt="-24.95" skinid="ht_node" url="{node1}"/>
+      <hotspot description="" title="이곳!!!" id="Point08" pan="-241.27" target="" tilt="-24.95" skinid="ht_node" url="{node1}"/>
       <polyhotspot description="" title="" id="Poly01" target="_blank" url="https://huonsmeditech.com/layout/kor/home.php?go=main">
         <polystring>-333.23/10.36|-332.67/-15.11|-29.97/-17.46|-31.02/11.34</polystring>
       </polyhotspot>
@@ -133,7 +159,7 @@
     <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
       <label height="20" borderradius="1" border="1" borderalpha="1" enabled="1" wordwrap="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" background="1" width="180" bordercolor="0x000000" textalpha="1"/>
       <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
-      <hotspot description="" title="LOBBY" id="Point01" pan="-182.36" target="" tilt="-18.45" skinid="ht_node" url="{node1}"/>
+      <hotspot description="" title="이곳!!!" id="Point01" pan="-182.36" target="" tilt="-18.45" skinid="ht_node" url="{node1}"/>
       <hotspot description="" title="LOBBY" id="Point02" pan="-98.21" target="" tilt="-24.71" skinid="ht_node" url="{node2}"/>
       <hotspot description="" title="LOBBY" id="Point03" pan="-153.76" target="" tilt="-8.05" skinid="ht_node" url="{node3}"/>
       <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point04" pan="-196.61" target="" tilt="-9.85" skinid="ht_node" url="{node5}"/>
@@ -289,7 +315,7 @@
       <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
       <hotspot description="" title="LOBBY" id="Point01" pan="-261.6" target="" tilt="-17.23" skinid="ht_node" url="{node3}"/>
       <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point02" pan="-309.83" target="" tilt="-3.18" skinid="ht_node" url="{node11}"/>
-      <hotspot description="" title="LOBBY" id="Point03" pan="-230.71" target="" tilt="-16.06" skinid="ht_node" url="{node1}"/>
+      <hotspot description="" title="이곳!!!" id="Point03" pan="-230.71" target="" tilt="-16.06" skinid="ht_node" url="{node1}"/>
       <hotspot description="" title="AESTHETIC THERAPY" id="Point04" pan="-198.02" target="" tilt="-8.29" skinid="ht_node" url="{node4}"/>
       <hotspot description="" title="AESTHETIC THERAPY" id="Point05" pan="-181.48" target="" tilt="0.14" skinid="ht_node" url="{node7}"/>
       <hotspot description="" title="EXTRACORPOREAL SHOCK WAVE" id="Point06" pan="-164.18" target="" tilt="-19.05" skinid="ht_node" url="{node6}"/>
@@ -441,7 +467,7 @@
       <hotspot description="" title="AESTHETIC THERAPY" id="Point02" pan="-127.22" target="" tilt="-16.35" skinid="ht_node" url="{node4}"/>
       <hotspot description="" title="AESTHETIC THERAPY" id="Point03" pan="-98.94" target="" tilt="2.31" skinid="ht_node" url="{node7}"/>
       <hotspot description="" title="LOBBY" id="Point04" pan="-151.27" target="" tilt="-11.63" skinid="ht_node" url="{node2}"/>
-      <hotspot description="" title="LOBBY" id="Point05" pan="-168.52" target="" tilt="-13.56" skinid="ht_node" url="{node1}"/>
+      <hotspot description="" title="이곳!!!" id="Point05" pan="-168.52" target="" tilt="-13.56" skinid="ht_node" url="{node1}"/>
       <hotspot description="" title="LOBBY" id="Point06" pan="-207.85" target="" tilt="-10.64" skinid="ht_node" url="{node3}"/>
       <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point07" pan="-259.9" target="" tilt="-18.07" skinid="ht_node" url="{node5}"/>
       <hotspot description="" title="ENDOSCOPE REPROCESSOR" id="Point08" pan="-243.77" target="" tilt="1.68" skinid="ht_node" url="{node11}"/>
